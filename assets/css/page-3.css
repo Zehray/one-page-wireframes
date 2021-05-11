@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: #cdcdcd;
+  font-family: "Titillium Web", sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 40px 70px;
+}
+header .logo-container {
+  text-decoration: none;
+  font-size: 64px;
+  letter-spacing: 5px;
+  padding: 0 60px;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+}
+.logo-container a {
+  color: #222;
+  text-decoration: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 31px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+header ul li a:hover {
+  border-bottom: 2px solid #222;
+}
+
+/* Main Section */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main p {
+  font-size: 56px;
+  color: #222;
+  padding: 0 30px;
+}
+.play-link {
+  background-color: #ea6060;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 120px;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+footer a .icon-down {
+  width: 40px;
+  height: 40px;
+}
+svg {
+  fill: white;
+  margin-left: 7px;
+}

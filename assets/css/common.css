@@ -1,0 +1,83 @@
+body {
+  background: #cdcdcd;
+  font-family: "Titillium Web", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.logo {
+  display: inline-block;
+  font-size: 42px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.logo a {
+  color: #222;
+}
+.button {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  background-color: #cdcdcd;
+  border: 2px solid #222;
+  font-weight: 400;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px;
+}
+.header-links {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+}
+.header-links ul {
+  display: flex;
+  flex-direction: row;
+  line-height: 18pt;
+}
+.header-links ul li {
+  padding: 11px 25px 0 25px;
+}
+
+.header-links ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #222;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 1.125;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.header-links ul li a:hover {
+  padding-bottom: 3px;
+  border-bottom: 3px solid #222;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+.pink-button {
+  width: 160px;
+  height: 50px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  background-color: #ea6060;
+  border: none;
+  font-weight: 600;
+  color: whitesmoke;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+}

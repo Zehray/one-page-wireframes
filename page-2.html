@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/myreset.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/page-2.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Page 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="sidebar-menu" class="sidebar hidden">
+        <div class="close-container">
+          <a href="#">
+            <svg
+              id="close-menu"
+              class="close-bar"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="13px"
+              height="13px"
+            >
+              <path
+                fill-rule="evenodd"
+                fill="rgb(255, 255, 255)"
+                d="M8.220,6.498 L12.871,1.847 C13.030,1.689 13.030,1.432 12.871,1.274 L11.724,0.127 C11.645,0.047 11.541,0.007 11.437,0.007 C11.333,0.007 11.229,0.047 11.150,0.127 L6.499,4.777 L1.849,0.127 C1.690,-0.032 1.433,-0.032 1.275,0.127 L0.128,1.274 C0.048,1.353 0.009,1.456 0.009,1.561 C0.009,1.664 0.048,1.768 0.128,1.847 L4.778,6.498 L0.128,11.149 C-0.031,11.306 -0.031,11.564 0.128,11.723 L1.275,12.870 C1.354,12.949 1.458,12.988 1.562,12.988 C1.665,12.988 1.769,12.949 1.849,12.870 L6.499,8.219 L11.150,12.870 C11.309,13.028 11.566,13.028 11.724,12.870 L12.871,11.723 C12.950,11.644 12.990,11.539 12.990,11.436 C12.990,11.332 12.950,11.228 12.871,11.149 L8.220,6.498 Z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">team</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+
+        <div class="contact-information">
+          (912) 555-1234
+          <br />
+          office@website.com
+        </div>
+        <div class="social-media-links">
+          <div class="fc-link"><a href="#">f</a></div>
+          <div class="tw-link"><a href="#">t</a></div>
+          <div class="ig-link"><a href="#">g</a></div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div id="open-menu" class="menu-black">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="21px"
+            height="17px"
+          >
+            <path
+              fill-rule="evenodd"
+              fill="rgb(255, 255, 255)"
+              d="M19.653,17.006 L1.346,17.006 C0.602,17.006 -0.000,16.417 -0.000,15.689 L-0.000,15.370 C-0.000,14.642 0.602,14.052 1.346,14.052 L19.653,14.052 C20.396,14.052 20.999,14.642 20.999,15.370 L20.999,15.689 C20.999,16.417 20.396,17.006 19.653,17.006 ZM19.653,9.977 L1.346,9.977 C0.602,9.977 -0.000,9.388 -0.000,8.661 L-0.000,8.342 C-0.000,7.615 0.602,7.025 1.346,7.025 L19.653,7.025 C20.396,7.025 20.999,7.615 20.999,8.342 L20.999,8.661 C20.999,9.388 20.396,9.977 19.653,9.977 ZM19.653,2.950 L1.346,2.950 C0.602,2.950 -0.000,2.361 -0.000,1.633 L-0.000,1.316 C-0.000,0.587 0.602,-0.002 1.346,-0.002 L19.653,-0.002 C20.396,-0.002 20.999,0.587 20.999,1.316 L20.999,1.633 C20.999,2.361 20.396,2.950 19.653,2.950 Z"
+            />
+          </svg>
+        </div>
+        <div class="text-container">
+          <p class="logo-text"><a href="index.html">logo</a></p>
+          <p class="lorem-text">
+            Lorem ipsum dolor sit amet,
+            <br />
+            consectetur adipisicing
+          </p>
+          <button class="button big-button">big button</button>
+        </div>
+        <div class="right-side">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a class="active" href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      const mySidebarEl = document.getElementById("sidebar-menu");
+      const openEl = document.getElementById("open-menu");
+      const closeEl = document.getElementById("close-menu");
+
+      openEl.onclick = () => {
+        mySidebarEl.classList.remove("hidden");
+      };
+
+      closeEl.onclick = () => {
+        mySidebarEl.classList.add("hidden");
+      };
+
+      /**
+        toggleButtonEl.onclick = () => {
+          if (mySidebarEl.classList.contains("hidden")) {
+            mySidebarEl.classList.remove("hidden");
+          } else {
+            mySidebarEl.classList.add("hidden");
+          }
+        };
+     */
+    </script>
+  </body>
+</html>
