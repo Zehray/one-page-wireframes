@@ -20,15 +20,7 @@ body {
 .logo a {
   color: #222;
 }
-.button {
-  text-transform: uppercase;
-  padding: 5px 15px;
-  background-color: #cdcdcd;
-  border: 2px solid #222;
-  font-weight: 400;
-  font-family: "Titillium Web", sans-serif;
-  cursor: pointer;
-}
+
 header {
   display: flex;
   flex-direction: row;
@@ -69,7 +61,30 @@ header ul {
   display: flex;
   flex-direction: row;
 }
-.pink-button {
+
+.secondary-button {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border: 2px solid #222;
+  font-weight: 700;
+  color: #222;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+  background: none;
+}
+
+.secondary-button.big .primary-button {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border: 2px solid #222;
+  font-weight: 700;
+  color: #222;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+  background: none;
+}
+
+.primary-button {
   width: 160px;
   height: 50px;
   text-transform: uppercase;
