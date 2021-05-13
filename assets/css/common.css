@@ -20,7 +20,14 @@ body {
 .logo a {
   color: #222;
 }
-
+.product-logo a {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 53px;
+  text-decoration: none;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -73,7 +80,7 @@ header ul {
   background: none;
 }
 
-.secondary-button.big .primary-button {
+.secondary-button .primary-button {
   text-transform: uppercase;
   padding: 5px 15px;
   border: 2px solid #222;
@@ -83,7 +90,10 @@ header ul {
   cursor: pointer;
   background: none;
 }
-
+.big-button {
+  padding: 15px 70px;
+  font-size: 24px;
+}
 .primary-button {
   width: 160px;
   height: 50px;
@@ -95,4 +105,14 @@ header ul {
   color: whitesmoke;
   font-family: "Titillium Web", sans-serif;
   cursor: pointer;
+}
+.text-area p {
+  font-size: 24px;
+  font-weight: 200;
+  padding: 30px 0px;
+}
+.text-area ul li {
+  font-size: 24px;
+  font-weight: 200;
+  list-style-position: inside;
 }
