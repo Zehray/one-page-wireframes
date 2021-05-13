@@ -2,6 +2,9 @@ body {
   background: #cdcdcd;
   font-family: "Titillium Web", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .container {
   display: flex;
   flex-direction: column;
