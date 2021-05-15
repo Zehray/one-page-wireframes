@@ -28,14 +28,3 @@
   padding: 0;
   margin: 25px 0;
 }
-.text-bar {
-  width: 420px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.text-bar p {
-  color: #777;
-  font-size: 28px;
-  font-weight: 200;
-}
