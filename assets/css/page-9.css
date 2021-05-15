@@ -1,0 +1,22 @@
+.image-main a {
+  line-height: 200px;
+}
+.img-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-board svg {
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 21px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.social-media-links div a {
+  border: 1px solid #222;
+  color: #222;
+  margin-right: 40px 15px 0 0;
+}

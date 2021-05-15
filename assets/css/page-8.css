@@ -9,12 +9,6 @@ section {
   margin: 0 auto;
 }
 
-.box-model {
-  flex: 50%;
-  padding: 10px;
-  display: flex;
-}
-
 .grey-disc {
   display: inline-block;
   flex-shrink: 0;

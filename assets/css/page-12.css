@@ -1,0 +1,41 @@
+.container {
+  background: white;
+  justify-content: flex-start;
+}
+.text-area p {
+  color: #777;
+}
+.graphic-boxes {
+  display: flex;
+  max-width: 55%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.progress-bar {
+  width: 420px;
+  height: 20px;
+  background: #f0f0f0;
+  border: none;
+}
+.progress-bar-fill {
+  display: block;
+  height: 20px;
+  background: #498af3;
+}
+.box-model {
+  flex-direction: column;
+  padding: 0;
+  margin: 25px 0;
+}
+.text-bar {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-bar p {
+  color: #777;
+  font-size: 28px;
+  font-weight: 200;
+}
