@@ -1,0 +1,79 @@
+.container {
+  background: white;
+  justify-content: flex-start;
+  height: auto;
+}
+.product-logo {
+  margin: 60px auto;
+}
+.grey-box {
+  width: 425px;
+  height: 320px;
+  margin: 0 2px;
+  padding-top: 120px;
+  position: relative;
+}
+
+.grey-box svg {
+  width: 80px;
+  height: 65px;
+  fill: white;
+}
+.grey-box-contain {
+  margin: 2px;
+}
+.grey-box.active {
+  background: #565d67;
+  text-align: center;
+  padding-top: 85px;
+}
+
+.grey-box.active a div {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  color: white;
+  border: 2px solid white;
+  font-size: 38px;
+  margin: 0 auto;
+}
+.grey-box.active h3 {
+  color: white;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.grey-box.active p {
+  color: white;
+}
+.grey-box:hover {
+  background: #565d67;
+}
+.grey-box.grey-box.active-two:hover .hover-two {
+  display: block;
+}
+.hover-two {
+  display: block;
+  width: 425px;
+  height: 105px;
+  border: none;
+  background: #565d67;
+  position: absolute;
+  bottom: 0;
+}
+
+.grey-box.active-two h3 {
+  color: white;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.grey-box.active-two p {
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  margin: 60px 0 80px 0;
+}

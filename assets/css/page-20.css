@@ -1,0 +1,47 @@
+.container {
+  background: white;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.text-main p {
+  color: #777;
+}
+.square-box-contain {
+  justify-content: center;
+}
+
+.img-board {
+  border: 1px solid #222;
+  padding: 45px 50px;
+}
+.img-board h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.img-board p {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.img-board {
+  color: #222;
+  margin: 0 25px;
+}
+.img-board ul li {
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #777;
+  white-space: nowrap;
+}
+.img-board ul li span {
+  color: #222;
+  font-weight: 600;
+}
+button {
+  margin: 64px 0;
+}

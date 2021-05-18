@@ -1,21 +1,17 @@
 body {
   background: white;
 }
-
-section {
+.contain {
   display: flex;
-  flex-wrap: wrap;
-  max-width: 60%;
-  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
 }
-
-.grey-disc {
-  display: inline-block;
-  flex-shrink: 0;
-  width: 56px;
-  height: 56px;
-  border-radius: 28px;
-  background: #cdcdcd;
-  border: none;
-  margin-right: 50px;
+.text-main {
+  padding-top: 0;
+}
+.services {
+  text-align: left;
+}
+.box-model h2 {
+  font-weight: 700;
 }

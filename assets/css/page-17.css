@@ -1,0 +1,46 @@
+.head-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background: white;
+  font-family: "Titillium Web", sans-serif;
+}
+.head-text h2 {
+  text-transform: none;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: italic;
+  color: #4b4b4b;
+}
+.head-text p {
+  font-size: 21px;
+  font-weight: 200;
+  color: #777;
+  text-transform: uppercase;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  margin: 80px 0 45px 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border: 1px solid #808080;
+  border-radius: 50%;
+}
+footer ul li a:hover {
+  background-color: #777777;
+}
+footer ul li a.active {
+  background-color: #777777;
+}
