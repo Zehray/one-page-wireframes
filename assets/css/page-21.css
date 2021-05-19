@@ -1,0 +1,111 @@
+.container {
+  background: white;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.text-main {
+  padding-bottom: 0;
+}
+.text-main p {
+  color: #777;
+}
+.square-box-contain {
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+.img-board {
+  border: 1px solid #777;
+  padding: 45px 0;
+}
+.img-board h1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.img-board p {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+}
+ul {
+  border-top: 1px solid #222;
+  padding: 20px 40px;
+  margin-top: 30px;
+}
+ul li {
+  padding-top: 20px;
+  color: #777;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.img-board ul li span {
+  color: #222;
+  font-weight: 600;
+}
+
+.secondary-button {
+  width: 145px;
+  height: 40px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  margin: 35px 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+}
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #565d67;
+  width: 243px;
+  height: 495px;
+  border: none;
+  color: white;
+}
+.active button {
+  border: none;
+  color: #222;
+  background: white;
+}
+.active p {
+  color: white;
+}
+.active ul {
+  border-top-color: white;
+}
+.active ul li {
+  color: white;
+}
+.active ul li span {
+  color: white;
+}
+.img-board:hover {
+  background: #565d67;
+  width: 243px;
+  height: 495px;
+  border: none;
+  color: white;
+}
+.img-board:hover ul li {
+  color: white;
+}
+.img-board:hover button {
+  border: none;
+  color: #222;
+  background: white;
+}
+.img-board:hover p {
+  color: white;
+}
+.img-board:hover ul li span {
+  color: white;
+}
+.img-board:hover ul {
+  border-top-color: white;
+}
