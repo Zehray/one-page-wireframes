@@ -63,7 +63,6 @@ ul li {
   flex-direction: column;
   align-items: center;
   background: #565d67;
-  width: 243px;
   height: 495px;
   border: none;
   color: white;
@@ -87,10 +86,9 @@ ul li {
 }
 .img-board:hover {
   background: #565d67;
-  width: 243px;
   height: 495px;
-  border: none;
   color: white;
+  border: 1px solid #565d67;
 }
 .img-board:hover ul li {
   color: white;

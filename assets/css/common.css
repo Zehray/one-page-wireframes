@@ -273,3 +273,21 @@ section {
   max-width: 60%;
   margin: 0 auto;
 }
+
+.social-media-contain {
+  border: none;
+  margin: 0 auto;
+}
+
+.social-media-contain ul {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-contain ul li {
+  margin: 45px;
+}
+.social-media-contain ul li a {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+}

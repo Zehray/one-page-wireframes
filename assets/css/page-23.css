@@ -1,0 +1,68 @@
+.container {
+  background: white;
+  min-width: 80%;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+.product-logo p {
+  font-size: 24px;
+  font-family: "PT Sans", sans-serif;
+}
+.map-area {
+  text-align: center;
+  width: 100%;
+}
+form {
+  margin: 70px auto 0 auto;
+  text-align: center;
+}
+input {
+  width: 418px;
+  padding-left: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+}
+input:nth-child(1) {
+  margin-right: 30px;
+}
+input::placeholder {
+  color: #222;
+}
+textarea {
+  display: block;
+  width: 865px;
+  margin-top: 30px;
+}
+textarea::placeholder {
+  font-family: "PT Sans", sans-serif;
+  color: #222;
+  font-size: 18px;
+  padding: 20px 0 0 20px;
+}
+#name,
+#email {
+  width: 415px;
+  height: 50px;
+}
+button {
+  margin-top: 60px;
+}
+.social-media-contain {
+  border: none;
+  margin: 0 auto;
+}
+
+.social-media-contain ul {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-contain ul li {
+  margin: 45px;
+}
+.social-media-contain ul li a {
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+}
