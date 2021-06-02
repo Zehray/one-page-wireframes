@@ -1,34 +1,57 @@
-.container {
+.container-15 {
+  display: flex;
+  flex-direction: column;
   background: white;
   justify-content: flex-start;
   height: auto;
 }
-.product-logo {
+.container-15 .product-logo {
   margin: 60px auto;
 }
-.grey-box {
+.image-contain-15 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 75%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.grey-box-15 {
+  display: block;
+  background: #cdcdcd;
+  text-align: center;
   width: 425px;
   height: 320px;
-  margin: 0 2px;
+  margin: 2px;
   padding-top: 120px;
   position: relative;
 }
 
-.grey-box svg {
+.grey-box-15 img {
   width: 80px;
   height: 65px;
-  fill: white;
-}
-.grey-box-contain {
-  margin: 2px;
-}
-.grey-box.active {
-  background: #565d67;
-  text-align: center;
-  padding-top: 85px;
 }
 
-.grey-box.active a div {
+.hover-one {
+  display: none;
+}
+.image-contain-15 .grey-box-15:nth-child(odd):hover {
+  background: #565d67;
+}
+
+.image-contain-15 .grey-box-15:hover:nth-child(even) .hover-two {
+  display: block;
+}
+
+.image-contain-15 .grey-box-15:nth-child(odd):hover .hover-one {
+  display: block;
+}
+.image-contain-15 .grey-box-15:nth-child(odd):hover img {
+  display: none;
+}
+
+.grey-box-15.active div a {
+  display: inline-block;
   width: 46px;
   height: 46px;
   border-radius: 50%;
@@ -37,22 +60,21 @@
   font-size: 38px;
   margin: 0 auto;
 }
-.grey-box.active h3 {
+.grey-box-15.active h3 {
   color: white;
   font-weight: 700;
   margin: 20px 0;
 }
-.grey-box.active p {
+.grey-box-15.active p {
   color: white;
 }
-.grey-box:hover {
-  background: #565d67;
-}
-.grey-box.grey-box.active-two:hover .hover-two {
+
+.grey-box.active-two:hover .hover-two {
   display: block;
 }
+
 .hover-two {
-  display: block;
+  display: none;
   width: 425px;
   height: 105px;
   border: none;
@@ -61,16 +83,16 @@
   bottom: 0;
 }
 
-.grey-box.active-two h3 {
+.grey-box-15.active-two h3 {
   color: white;
   font-weight: 700;
   margin-top: 25px;
 }
-.grey-box.active-two p {
+.grey-box-15.active-two p {
   color: white;
 }
 
-footer {
+.lm-page-15 {
   text-align: center;
 }
 

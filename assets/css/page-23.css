@@ -6,6 +6,9 @@
   justify-content: flex-start;
   margin: 0 auto;
 }
+.text-main {
+  padding-bottom: 0;
+}
 .product-logo p {
   font-size: 24px;
   font-family: "PT Sans", sans-serif;

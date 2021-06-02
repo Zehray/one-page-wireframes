@@ -1,19 +1,18 @@
-.contain {
+.page-7 {
   max-width: 1280px;
   margin: 0 auto;
+}
+.text-area {
+  justify-content: space-evenly;
 }
 .image-main {
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 25px 45px 0;
 }
 .image-main a {
   line-height: 200px;
-}
-
-.img-board svg {
-  margin-bottom: 40px;
 }

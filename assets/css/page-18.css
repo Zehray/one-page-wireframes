@@ -1,8 +1,10 @@
 body {
   height: 100%;
 }
-.contain {
+.contain-18 {
+  background: white;
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -29,7 +31,8 @@ section {
 .text-main {
   padding-bottom: 0;
 }
-.box-model {
+section .box-model {
+  flex-direction: row;
   margin-top: 60px;
   white-space: nowrap;
 }
@@ -80,5 +83,5 @@ section {
   font-size: 41px;
   color: white;
   font-weight: 600;
-  margin: 0 40px;
+  margin: 0 30px;
 }

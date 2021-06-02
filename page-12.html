@@ -16,7 +16,7 @@
     <title>Page 12</title>
   </head>
   <body>
-    <div class="container">
+    <div class="page-12">
       <div class="text-main text-area">
         <h1 class="product-logo"><a href="index.html">we got skılls!</a></h1>
         <p>
@@ -30,40 +30,68 @@
         <div class="box-model">
           <div class="text-bar">
             <h2>web desıgn</h2>
-            <p>90%</p>
+            <p></p>
           </div>
           <div class="progress-bar">
-            <span class="progress-bar-fill" style="width: 90%"></span>
+            <span
+              class="progress-bar-fill"
+              data-level="90%"
+              style="width: 90%"
+            ></span>
           </div>
         </div>
         <div class="box-model">
           <div class="text-bar">
             <h2>graphic design</h2>
-            <p>70%</p>
+            <p></p>
           </div>
           <div class="progress-bar">
-            <span class="progress-bar-fill" style="width: 70%"></span>
+            <span
+              class="progress-bar-fill"
+              data-level="70%"
+              style="width: 70%"
+            ></span>
           </div>
         </div>
         <div class="box-model">
           <div class="text-bar">
             <h2>html/css</h2>
-            <p>75%</p>
+            <p></p>
           </div>
           <div class="progress-bar">
-            <span class="progress-bar-fill" style="width: 75%"></span>
+            <span
+              class="progress-bar-fill"
+              data-level="75%"
+              style="width: 75%"
+            ></span>
           </div>
         </div>
         <div class="box-model">
           <div class="text-bar">
             <h2>ui / ux</h2>
-            <p>85%</p>
+            <p></p>
           </div>
           <div class="progress-bar">
-            <span class="progress-bar-fill" style="width: 85%"></span>
+            <span
+              class="progress-bar-fill"
+              data-level="85%"
+              style="width: 85%"
+            ></span>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      const boxElements = document.querySelectorAll(".box-model");
+      boxElements.forEach((boxElement) => {
+        const bar = boxElement.querySelector(".progress-bar-fill");
+        const pElement = boxElement.querySelector("p");
+
+        const level = bar.getAttribute("data-level");
+        bar.style.width = level;
+        pElement.innerHTML = level;
+      });
+    </script>
   </body>
 </html>
